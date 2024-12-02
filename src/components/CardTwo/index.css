@@ -1,0 +1,25 @@
+
+
+.two-bootom-card {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+}
+
+.round-container-two {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #EEF0F5;
+}
+
+.card-two-cb {
+    padding-bottom: 18px;
+    font-size: 18.75px;
+    font-weight: 700;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+

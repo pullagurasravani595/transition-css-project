@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+.card-one-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 8px 8px;
+    background-color: #FFFFFF;
+}
+
+.round-container {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #EEF0F5;
+}
+
+.card-one-cb {
+    padding-bottom: 18px;
+    font-size: 18.75px;
+    font-weight: 700;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraph-val {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.hannibal {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.customer-container {
+    background: linear-gradient(0deg, rgba(76, 98, 146, 0.03), rgba(76, 98, 146, 0.03));
+}
+
+.border-container {
+    border-bottom: 1px solid #44486D1A
+}
+
+.add-btn {
+    background-color: #4C62921A;
+    width: 100%;
+    line-height: 40px;
+    border-width: 0px;
+}
+
+.padding-container {
+    padding: 12px 12px;
+}
+
+.card-one-icon {
+    color: #D7AF48;
+}
+
+.card-one-icon-two {
+    color: #48D756;
+}
+
+.agent-btn {
+    background-color: #0F8BFD;
+    width: 100%;
+    height: 45px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+.card-one-dot-btn {
+    border: 1px dotted #0F8BFD;
+    color: #0F8BFD;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

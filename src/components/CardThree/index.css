@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+
+.card-three-container {
+    background: #FFFFFF;
+}
+
+.card-three-element-p {
+    background: linear-gradient(0deg, rgba(76, 98, 146, 0.03), rgba(76, 98, 146, 0.03));
+    line-height: 35px;
+    border: 1px solid #4C629233;
+    color: #0F1729;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.card-three-pin {
+    color: #0F8BFD;
+    font-size: 18px;
+}
+
+.image-card-three {
+    color: #0F1729;
+    font-size: 18px;
+}
+
+.input-element {
+    height: 42px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    outline: none;
+    padding: 6px;
+}
+
+.card-three-favoite {
+    color: #0F1729;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.search-container {
+    width: 100%;
+    background: #4C62920A;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.common-btn {
+    width: 140px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 14px;
+    border-width: 0px;
+}
+
+.blue-btn {
+    background-color: #0F8BFD;
+    color: #FFFFFF;
+}
+
+.transparent-btn {
+    background-color: #0F8BFD1A;
+    color: #0F8BFD;
+}
+
+.three-plus-icon {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.three-center-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-three-view {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    z-index: 0;
+}
+
+.dim-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #44486D99;
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.three-greeting-container {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: fit-content;
+    height: 200px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.greeting {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.button-icon {
+    background-color: #FFFFFF;
+    color: #0F8BFD;
+    font-size: 20px;
+    border-width: 0px;
+    line-height: 45px;
+    margin-left: 10px;
+}
+
+.send-btn {
+    background-color: #0F8BFD;
+    color: #FFFFFF;
+    font-size: 25px;
+    height: 40px;
+    padding: 4px;
+}
